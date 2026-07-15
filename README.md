@@ -220,6 +220,9 @@ ip2region 对国外 IP 返回英文地区名（如 `United States|California|San
 
 ## 常见问题
 
+**启用插件报错？**
+插件默认使用CDN模式，启用插件首次评论，会下载文件，等待文件下载好，过几秒钟就可以了
+
 **启用插件后评论不显示归属地？**
 
 1. 运行 `php download_xdb.php status` 检查数据库文件是否已下载
@@ -298,4 +301,3 @@ IP 数据库来自开源项目 [ip2region](https://github.com/lionsoul2014/ip2re
 
 - [ip2region](https://github.com/lionsoul2014/ip2region) - 高性能 IP 地址定位库
 - [Typecho](https://typecho.org) - 简洁强大的博客平台
-
