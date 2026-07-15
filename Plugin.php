@@ -22,7 +22,7 @@ require_once __DIR__ . '/libs/HttpHelper.php';
  * @package CommentIpLocation
  * @author 落叶
  * @version 1.0
- * @link https://github.com/lionsoul2014/ip2region
+ * @link https://github.com/luoyekx/CommentIpLocation
  */
 class Plugin implements PluginInterface
 {
